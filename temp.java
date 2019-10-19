@@ -1,39 +1,46 @@
+import java.util.*;
+
 class Solution {
-    public void sortColors(int[] A) {
-        // DUTCH NATIONAL FLAG PROBLEM - https://www.youtube.com/watch?v=BOt1DAvR0zI
-        // http://buttercola.blogspot.com/2014/09/leetcode-sort-colors.html
-        // https://www.youtube.com/watch?v=iNNszqTonu4
+    public List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> res = new ArrayList<Integer>();
+        if (matrix == null || matrix.length == 0)
+            return res;
+        int left = 0;
+        int right = matrix[0].length - 1;
+        int top = 0;
+        int bottom = matrix.length - 1;
+
         /*
-         * Since the array is only composed of 0, 1, and 2, we can naturally think of
-         * using two pointers approach. We use two pointers, red and blue, points to the
-         * starting and end of the array initially. Then iterate index i from 0 to the
-         * end of the array. If A[i] == 0, move it to red pointer. If A[i] == 2, move it
-         * to blue pointer. Else move on.
+         * if(bottom==1) { for(int i=0; i<right; i++) res.add(matrix[0][i]);
+         * 
+         * return res; }
          */
-        if (A == null || A.length <= 1)
-            return;
 
-        int red = 0;
-        int blue = A.length - 1;
-
-        int i = 0;
-        while (i <= blue) {
-            if (A[i] == 0) {
-                swap(A, i, red);
-                red++;
-                i++;
-            } else if (A[i] == 2) {
-                swap(A, i, blue);
-                blue--;
-            } else {
-                i++;
+        while (left <= right && top <= bottom) {
+            // System.out.println(left);
+            // System.out.println(right);
+            for (int i = left; i <= right; i++) {
+                res.add(matrix[top][i]);
             }
-        }
-    }
+            top++;
+            for (int i = top; i <= bottom; i++) {
+                res.add(matrix[i][right]);
+            }
+            right--;
+            if (top <= bottom) {
+                for (int i = right; i >= left; i--) {
+                    res.add(matrix[bottom][i]);
+                }
+                bottom--;
+            }
+            if (left <= right) {
+                for (int i = bottom; i >= top; i--) {
+                    res.add(matrix[i][left]);
+                }
+                left++;
+            }
 
-    private void swap(int[] A, int i, int j) {
-        int temp = A[i];
-        A[i] = A[j];
-        A[j] = temp;
+        }
+        return res;
     }
 }
