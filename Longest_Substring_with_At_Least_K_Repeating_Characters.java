@@ -1,3 +1,5 @@
+import java.util.*;
+
 // https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/322678/Java-recursive-solution-with-simple-explaining
 
 // https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/discuss/87830/Java-solution-14-ms-Recursive-based-on-splitting-string-by-least-frequent-character
@@ -16,7 +18,7 @@ in this case that would be alphabet d at index 6, we recurse on left and right p
 
 Again, we count character count of each substring, i.e for aacbbb it would be - a=2, b=3, c=1, so we perform the further steps, now c doesnt satisfy the criterion and hence we will split the it at character c i.e index - 2, we get 2 strings, aa and ccc, we recurse on them and find that both satisfy the k constraint but since bbb is of size 3 we return 3
 */
-class Solution {
+class Longest_Substring_with_At_Least_K_Repeating_Characters {
     public int longestSubstring1(String s, int k) {
         if (s == null || s.length() < k)
             return 0;

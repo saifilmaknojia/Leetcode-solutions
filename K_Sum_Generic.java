@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class K_Sum_Generic {
     // similar to 3 sum, use 2 fixed pointers instead of 1
     // Time complexity is O(N^(K-1)) -> 4Sum O(N^3)
     public List<List<Integer>> fourSum(int[] nums, int target) {

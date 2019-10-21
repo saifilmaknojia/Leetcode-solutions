@@ -1,4 +1,4 @@
-class Solution {
+class Valid_mountain_array {
     public boolean validMountainArray(int[] A) {
         // boolean result = false;
         int len = A.length;

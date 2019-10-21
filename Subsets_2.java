@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Subsets_2 {
     // Basically, its completely same as Subsets_1, the only thing which we do is
     // check for duplicates,
     // if its duplicate, we continue

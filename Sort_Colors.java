@@ -1,4 +1,4 @@
-class Solution {
+class Sort_Colors {
     public void sortColors(int[] A) {
         // DUTCH NATIONAL FLAG PROBLEM - https://www.youtube.com/watch?v=BOt1DAvR0zI
         // http://buttercola.blogspot.com/2014/09/leetcode-sort-colors.html

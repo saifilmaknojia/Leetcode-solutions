@@ -1,8 +1,8 @@
 import java.util.*;
 
-class Solution {
+class Top_K_Frequent_Elements {
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Top_K_Frequent_Elements s = new Top_K_Frequent_Elements();
         int[] test = { 1, 1, 1, 2, 2, 3 };
         int k = 2;
         System.out.println(s.topKFrequent(test, k));

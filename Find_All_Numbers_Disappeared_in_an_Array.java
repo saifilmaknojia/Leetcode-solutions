@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Find_All_Numbers_Disappeared_in_an_Array {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         /*
          * Nice idea, traverse through the array, and negate the indexes of whichever

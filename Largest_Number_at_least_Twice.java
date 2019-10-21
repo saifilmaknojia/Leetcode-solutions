@@ -1,4 +1,4 @@
-class Solution {
+class Largest_Number_at_least_Twice {
 	public int dominantIndex(int[] nums) {
 		int result = -1;
 		/*

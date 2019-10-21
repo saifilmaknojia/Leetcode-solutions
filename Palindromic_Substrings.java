@@ -1,4 +1,4 @@
-class Solution {
+class Palindromic_Substrings {
     // Dynamic Programming Solution
     // https://leetcode.com/problems/palindromic-substrings/discuss/105714/Share-3-methods-DP-method-and-extend-method-Java
     public int countSubstrings(String s) {

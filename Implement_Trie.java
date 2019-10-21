@@ -9,12 +9,12 @@ class TrieNode {
     }
 }
 
-class Trie {
+class Implement_Trie {
 
     /** Initialize your data structure here. */
     TrieNode root;
 
-    public Trie() {
+    public Implement_Trie() {
         root = new TrieNode();
     }
 

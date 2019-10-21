@@ -2,9 +2,9 @@
  * @author Shaifil
  *
  */
-class Solution {
+class Max_Increase_to_Keep_City_Skyline {
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Max_Increase_to_Keep_City_Skyline s = new Max_Increase_to_Keep_City_Skyline();
         int[][] test = new int[][] { { 3, 0, 8, 4 }, { 2, 4, 5, 7 }, { 9, 2, 6, 3 }, { 0, 3, 1, 0 } };
         int x = s.maxIncreaseKeepingSkyline(test);
         System.out.println("Result = " + x);

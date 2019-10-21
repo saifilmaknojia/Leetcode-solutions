@@ -4,7 +4,7 @@ import java.util.*;
 Idea to reduce operations is to perform pruning, for eg, if we know that the sum of current number at ith index and the last 3 numbers, i.e -
 largest sum of 3 numbers, is less than targetsum, then we can continue and increase i since in no way we can achieve the target sum, with current value at ith index(check line 22), similarly, if sum of ith index + (i+1)st+(i+2)nd+(i+3)rd values is greater than target sum then we break (check line 20), coz no way we could then achieve 4 sum for given target because all the sum values would be greater only.
 */
-class Solution {
+class Four_Sum_with_Pruning {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> solutions = new ArrayList<>();
         if (nums.length < 4)

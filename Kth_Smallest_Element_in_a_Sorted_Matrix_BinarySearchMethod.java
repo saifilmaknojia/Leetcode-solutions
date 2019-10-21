@@ -1,7 +1,7 @@
 // Concept - https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/301357/Java-0ms-(added-Python-and-C++):-Easy-to-understand-solutions-using-Heap-and-Binary-Search
 // Implementation - Discuss board top thread
 
-class Solution {
+class Kth_Smallest_Element_in_a_Sorted_Matrix_BinarySearchMethod {
     public int kthSmallest(int[][] matrix, int k) {
         int len = matrix.length;
         int col = matrix[0].length - 1;

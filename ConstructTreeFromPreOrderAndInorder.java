@@ -10,7 +10,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class ConstructTreeFromPreOrderAndInorder {
     int idx = 0;
     HashMap<Integer, Integer> inMap = new HashMap<Integer, Integer>();
 

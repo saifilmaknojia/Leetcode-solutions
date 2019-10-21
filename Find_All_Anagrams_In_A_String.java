@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Find_All_Anagrams_In_A_String {
 
     // This approach is similar to smallest window substring but it is not optimal
     // for this question since we are moving right pointer ahead till we get all the

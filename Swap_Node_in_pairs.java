@@ -7,7 +7,7 @@ class ListNode {
     }
 }
 
-class Solution {
+class Swap_Node_in_pairs {
     // Iterative approach
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null)

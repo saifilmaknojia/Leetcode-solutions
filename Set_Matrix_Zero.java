@@ -1,4 +1,4 @@
-class Solution {
+class Set_Matrix_Zero {
     // O(M+N) solution
     public void setZeroes(int[][] matrix) {
         if (matrix == null || matrix.length == 0)

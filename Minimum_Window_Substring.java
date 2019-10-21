@@ -1,7 +1,7 @@
 // Here we are taking substring everytime we find a better result, but substring is a costly operation instead we can maintain a min length, which is initailized to Integer.MAX_VALUE and every time we check if r-l is less than minimum then we upadate the minlength and along with it we also have to store a minStart, so when we return the result we would be return s.substring(minstart, minstart + minlength)
 // Look at the submission solution of 2 second
 
-class Solution {
+class Minimum_Window_Substring {
     public String minWindow(String s, String p) {
         // Initializing the result to be the whole string, we will return empty if we
         // are not able to find string p using a boolean varialble

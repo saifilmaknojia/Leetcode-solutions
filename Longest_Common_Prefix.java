@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Longest_Common_Prefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0)
             return "";

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Pascals_Triangle_1 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> final_res = new ArrayList<List<Integer>>();
         List<Integer> mid = new ArrayList<Integer>();

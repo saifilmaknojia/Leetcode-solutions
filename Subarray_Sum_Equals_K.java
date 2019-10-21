@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Subarray_Sum_Equals_K {
     // concept of prefix sum
     public int subarraySum(int[] nums, int k) {
         if (nums == null || nums.length == 0)

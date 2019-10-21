@@ -1,6 +1,6 @@
 import java.util.Random;
 
-class Solution {
+class Kth_largest_element {
 
 	// https://medium.com/algorithm-problems/kth-largest-element-in-an-array-724a0b86d632
 	// https://www.youtube.com/watch?v=hGK_5n81drs

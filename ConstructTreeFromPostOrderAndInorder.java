@@ -10,7 +10,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class ConstructTreeFromPostOrderAndInorder {
 
     // This is very similar to the question, construct binary tree from inorder and
     // preorder traversal.

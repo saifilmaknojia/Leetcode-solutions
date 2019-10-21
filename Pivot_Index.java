@@ -1,6 +1,6 @@
 // import java.util.*;
 
-class Solution {
+class Pivot_Index {
     public int pivotIndex(int[] nums) {
         // The idea I have used for this problem is to have a left sum value, which will
         // be the left side of the index and

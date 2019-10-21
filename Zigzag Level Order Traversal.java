@@ -15,7 +15,8 @@ class TreeNode {
     }
 }
 
-class Solution {
+class Zigzag_Level_Order_Traversal {
+
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> outer = new ArrayList<>();
         List<Integer> inner = new ArrayList<>();

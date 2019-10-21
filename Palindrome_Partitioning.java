@@ -2,7 +2,7 @@ import java.util.*;
 
 // https://leetcode.com/problems/palindrome-partitioning/discuss/41963/Java:-Backtracking-solution.
 // https://leetcode.com/problems/palindrome-partitioning/discuss/182307/Java:-Backtracking-Template-General-Approach
-class Solution {
+class Palindrome_Partitioning {
     public List<List<String>> partition(String s) {
         List<List<String>> result = new ArrayList<>();
 

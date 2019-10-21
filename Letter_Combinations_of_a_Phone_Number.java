@@ -2,7 +2,7 @@ import java.util.*;
 
 // did myself using backtracking :)
 
-class Solution {
+class Letter_Combinations_of_a_Phone_Number {
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
         if (digits == null || digits.length() == 0)

@@ -13,7 +13,7 @@ class TreeNode {
     }
 }
 
-class Solution {
+class Balanced_Binary_Tree {
     public boolean isBalanced(TreeNode root) {
         if (root == null)
             return true;

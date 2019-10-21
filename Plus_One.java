@@ -1,6 +1,6 @@
 // import java.util.*;
 
-class Solution {
+class Plus_One {
 	public int[] plusOne(int[] digits) {
 		// idea used
 		// start from the last element in an array
