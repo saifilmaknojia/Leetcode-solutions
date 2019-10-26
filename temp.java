@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Temp {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> res = new ArrayList<Integer>();
         if (matrix == null || matrix.length == 0)
