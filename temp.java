@@ -44,6 +44,23 @@ class Pair implements Comparator<Pair> {
 }*/
 
 class Solution {
+
+    public int twoCitySchedCost(int[][] costs) {
+        int len = costs.length;
+        if (len == 0)
+            return 0;
+
+        Arrays.sort(costs, (x, y) -> (x[0] - x[1]) - (y[0] - y[1]));
+        Arrays.sort(costs, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] x, int[] y) {
+                return (x[0] - x[1]) - (y[0] - y[1]);
+            }
+        });
+
+        return 3;
+    }
+
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
         if (n < 1)
             return 0;
