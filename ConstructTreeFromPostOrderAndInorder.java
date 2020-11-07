@@ -1,17 +1,15 @@
 import java.util.*;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+public class ConstructTreeFromPostOrderAndInorder {
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
+        TreeNode(int x) {
+            val = x;
+        }
     }
-}
-
-class ConstructTreeFromPostOrderAndInorder {
-
     // This is very similar to the question, construct binary tree from inorder and
     // preorder traversal.
     // In preorder traversal, it is root -> left -> right

@@ -2,12 +2,26 @@ public class Delete_Node_in_a_BST_450 {
 
 }
 
-/**
- * Definition for a binary tree node. public class TreeNode { int val; TreeNode
- * left; TreeNode right; TreeNode() {} TreeNode(int val) { this.val = val; }
- * TreeNode(int val, TreeNode left, TreeNode right) { this.val = val; this.left
- * = left; this.right = right; } }
- */
+// Definition for a binary tree node.
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
 class Solution {
     // single child - explore that child
     // no child - just delete
@@ -67,7 +81,7 @@ class Solution {
     }
 
     private void rearrange(TreeNode toRemove, TreeNode parent, boolean location) {
-        TreeNode temp = null;
+        // TreeNode temp = null;
         System.out.println("PArent is " + parent.val + " On ==> " + location);
         // No children
         if (toRemove.left == null && toRemove.right == null) {
@@ -99,7 +113,7 @@ class Solution {
             System.out.println(replace.val);
 
             TreeNode right_tree = toRemove.right;
-            TreeNode left_tree = toRemove.left;
+            // TreeNode left_tree = toRemove.left;
 
             toRemove.val = replace.val;
 
