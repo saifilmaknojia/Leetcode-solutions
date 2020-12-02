@@ -1,4 +1,3 @@
-package Amazon;
 
 class Word_Search {
     // concept used - DFS, backtracking (just to mark current cell as visited)

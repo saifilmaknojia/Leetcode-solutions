@@ -13,6 +13,7 @@ public class Cheapest_Flights_Within_K_Stops {
         // similar to Dijkstra
         // x[0] = edge, x[1] = cost, x[2] = stops
         PriorityQueue<int[]> min_heap = new PriorityQueue<>((x, y) -> x[1] - y[1]);
+        @SuppressWarnings("unchecked")
         List<int[]>[] graph = new ArrayList[n];
 
         // initializing arraylist for the graph

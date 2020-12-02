@@ -12,7 +12,7 @@ public class Largest_Divisible_Subset_378 {
         int len = nums.length;
 
         Arrays.sort(nums);
-
+        @SuppressWarnings("unchecked")
         List<Integer>[] tracker = new ArrayList[len];
 
         for (int i = 0; i < len; i++)

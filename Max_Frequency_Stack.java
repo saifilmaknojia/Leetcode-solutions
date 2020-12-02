@@ -1,4 +1,3 @@
-package Amazon;
 
 import java.util.*;
 

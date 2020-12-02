@@ -1,4 +1,3 @@
-package Amazon;
 
 public class Partition_Equal_Subset_Sum_416 {
     public boolean canPartition(int[] nums) {

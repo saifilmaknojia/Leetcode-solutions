@@ -104,7 +104,6 @@ class Network_Node implements Comparator<Network_Node> {
 
     @Override
     public int compare(Network_Node o1, Network_Node o2) {
-        // TODO Auto-generated method stub
         return o1.cost < o2.cost ? -1 : 1;
     }
 }

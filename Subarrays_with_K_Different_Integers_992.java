@@ -24,6 +24,7 @@ class Solution_1 {
         // Array of hashSet of length = A.length - K + 1
         int arr_len = len - K + 1;
         int[] result_arr = new int[arr_len];
+        @SuppressWarnings("unchecked")
         HashSet<Integer>[] tracker = new HashSet[arr_len];
         int result = 0;
 

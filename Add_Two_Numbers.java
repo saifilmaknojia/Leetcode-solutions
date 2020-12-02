@@ -1,4 +1,3 @@
-package Amazon;
 
 class ListNode {
     int val;
