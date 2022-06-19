@@ -26,7 +26,6 @@ public class Simplify_Path_71 {
         }
 
         // System.out.println(stack);
-
         StringBuilder result = new StringBuilder();
 
         // Path start with "/"
@@ -38,7 +37,6 @@ public class Simplify_Path_71 {
         }
 
         result.deleteCharAt(result.length() - 1);
-
         // System.out.println(result);
 
         return result.length() == 0 ? "/" : result.toString();
