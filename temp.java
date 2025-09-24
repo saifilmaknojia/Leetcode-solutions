@@ -46,6 +46,7 @@ class Pair implements Comparator<Pair> {
 class Solution {
 
     public int twoCitySchedCost(int[][] costs) {
+		// get length
         int len = costs.length;
         if (len == 0)
             return 0;
