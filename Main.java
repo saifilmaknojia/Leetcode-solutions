@@ -16,6 +16,10 @@ class Main {
         System.out.println(ANSI_RED + "This text has red text but a default background!" + ANSI_RESET);
         System.out.println(ANSI_GREEN + ANSI_RED + "This text has a green background and red text!" + ANSI_RESET);
 
+        int a = 0;
+        int b = 15;
+
+        System.out.println(a + b);
     }
 
 }
